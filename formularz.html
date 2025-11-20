@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+<head> 
+	<title> Strona igora - Projektowanie Stron Internetowych </title>
+	<meta charset="UTF-8"/>
+</head>
+<body>
+	<div style="background-color:gray;">
+		<h1> <center> Projektowanie Stron Internetowych - igor ochman </h1> </center>
+	</div>
+	<div style="float:left; background-color:aqua; width:30%; height: 850px;">
+		<h3> HTML </h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> KOLORY </a> <br />
+			<a href="nauczyciele.html"> NAUCZYCIELE </a> <br />
+			<a href="zdjecia.html"> ZDJĘCIA </a> <br />
+			<a href="tabele.html"> TABELA </a> <br />
+			<a href="listy-ochman.html"> TABELA NA OCENE </a> <br />
+			<a href="listy.html"> LISTY </a> <br />
+			<a href="listy-ochman.html"> LISTY NA OCENE </a> <br />
+			<a href="formularz.html"> FORMULARZE </a> <br />
+			<a href="mapy_odsyłaczy.html"> MAPY ODSYŁACZY </a> <br />
+			<a href="zdarzenia.html">ZDARZENIA</a><br />
+			<a href="formularze_na_ocene.html">FORMULARZE NA OCENE</a><br />
+	</div>
+	<div style="float:right; width:70%;">
+		<form>
+		<p> Imie I Nazwisko: <input type="text" name="imie_i_nazwisko" size="15" /> </p>
+		<p> Adres E-Mail: <input type="text" name="email"  /> </p>
+		<p> Hasło: <input type="password" id="haslo" /> </p>
+		<p> Płeć: <br />
+		<input type="radio" name="plec" value="mezczyzna" /> MĘŻCZYZNA <br />
+		<input type="radio" name="plec" value="kobieta" checked /> KOBIETA </p>
+		<p> <label for="male"> mężczyzna </label>
+			<input type="radio" name="gender" id="male" value="mezczyzna" /> <br />
+		<label for="female"> kobieta </label>
+			<input type="radio" name="gender" id="female" value="kobieta" /><br />
+			<p> jezyki, ktorymi władasz:</p>
+			<p><input type="checkbox" name="nazwa_jezyki" value="wartosc_angielski" > ENG </p>
+			<p><input type="checkbox" name="nazwa_jezyki" value="wartosc_niemiecki" > GER </p>
+			<p><input type="checkbox" name="nazwa_jezyki" value="wartosc_chinski" checked/> CHN </p>
+			<p>
+			<select multiple>
+			<optgroup label="Ulubione Owoce">
+			  <option value="truskawki"> Truskawki </option>
+			  <option value="banany"> banany </option>
+			  <option value="avocado"> avocado </option> 
+			  </optgroup>
+			  <select> <br />
+			  <input type="text"><input type="submit"> </input> <br />
+			  <select name="dni_robocze" size="7" multiple>
+			     <optgroup label="Dni robocze">
+			     <option value="poniedziałek"> poniedziałek </option>
+			     <option value="wtorek"> wtorek </option>
+			     <option value="środa"> Środa </option>
+			     <option value="czwartek"> czwartek </option>
+			     <option value="piątek"> piątek </option>
+				 </optgroup>
+				</select><br />
+			    <textarea cols="40" rows="5"></textarea><br />
+				<input type="reset" value="reset"> - przycisk resetowania <br />
+				<input type="button" value="Opuść Stronę"> - input </input><br />
+				<input type="button" value="kupuj teraz" onclick="alert('zakupiono')"> - button </input><br />	
+                <form enctype ="multipart/form-data" action="mail:nauka@gmail.com" method="post">
+                <p> wyślij ten plik <input type="file" name="plik" size="30" /> </p>				
+			
+	
+	</div>
+	<div style="background-color:grey; clear:both;"><center> &copy; B.G., Październik 2025 </center></div>
+</body>
+</html>

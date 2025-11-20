@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+<head> 
+	<title> Strona igora - Projektowanie Stron Internetowych </title>
+	<meta charset="UTF-8"/>
+</head>
+<body>
+	<div style="background-color:gray;">
+		<h1> <center> Projektowanie Stron Internetowych - igor ochman </h1> </center>
+	</div>
+	<div style="float:left; background-color:aqua; width:30%; height: 850px;">
+		<h3> HTML </h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> KOLORY </a> <br />
+			<a href="nauczyciele.html"> NAUCZYCIELE </a> <br />
+			<a href="zdjecia.html"> ZDJĘCIA </a> <br />
+			<a href="tabele.html"> TABELA </a> <br />
+			<a href="listy-ochman.html"> TABELA NA OCENE </a> <br />
+			<a href="listy.html"> LISTY </a> <br />
+			<a href="ochman_lista.html"> LISTY NA OCENE </a> <br />
+			<a href="formularz.html"> FORMULARZE </a> <br />
+			<a href="mapy_odsyłaczy.html"> MAPY ODSYŁACZY </a> <br />
+			<a href="zdarzenia.html">ZDARZENIA</a><br />
+			<a href="formularze_na_ocene.html">FORMULARZE</a><br />
+	</div>
+	<div style="float:right; width:70%;">
+	
+<h2>Zdarzenia onfocus oraz onblur</h2>
+
+<p>Po "wejściu" do pola input, funkcja ustawia kolor tła na zółty.</p>
+<p>Po "opuszczeniu" pola input, funkcja ustawia kolor tła na czerwony.</p>
+
+Wpisz swoje imie i nazwisko
+<input type="text" id="myInput" onfocus="FocusFunction()" onblur="blurFunction()">
+
+<script>
+function FocusFunction() {
+ document.getElementById("myInput").style.background = "yellow";
+ }
+ 
+ function blurFunction() {
+  document.getElementById("myInput").style.background = "red";
+}
+</script>
